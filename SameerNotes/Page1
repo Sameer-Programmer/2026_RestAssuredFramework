@@ -1,0 +1,21 @@
+Framework - Maintain all project related Files
+Objectives
+-------------
+1) Re-usuability
+2) Manintainability
+3) Readability
+
+Hybrid/Driven
+------------------
+
+Phases
+1) Understanding Requirements
+ - Functional specifications
+ - Swagger
+
+2) Choose Automation Tool  - java Rest Assured Lib
+3) Design
+4) Development
+5) Execution + CI
+
+============

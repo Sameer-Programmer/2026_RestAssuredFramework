@@ -1,0 +1,31 @@
+  Steps - Framwork Initilization
+---------------------
+Step 1- Create Maven Project
+Step 2-Update POM.XML file
+Create folder structure
+Under Test/Java
+-api.endpoints
+-api.payload
+-api.tes
+-api.utilities
+
+Step 3-Folder from the Project Root
+
+1)Reports
+2) Logs
+
+
+
+Create Maven Project
+Update Pom.xml
+dependencies
+1) Io restassured 1) rest -assured , 2) json-path
+2) org.json
+3) testNG
+4) java faker
+5) poi
+6) poi-ooxml
+7) extent reports
+8) github scrib java
+9) json Schem aVlidater
+
