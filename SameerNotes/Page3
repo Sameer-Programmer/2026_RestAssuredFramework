@@ -5,3 +5,9 @@ Other urls
 
 Step 5 -
 Create UserEndPoint.java -> CRUD Methods Implementations
+User POJO Class
+Here we take the Parameters and Create the getters and Setters
+
+Step 6
+Now Create the tests - UserTests
+
