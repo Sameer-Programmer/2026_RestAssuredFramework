@@ -5,17 +5,19 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
+
 
 public class UserEndPoints {
 
     public static Response createUser(User payload) {
         Response response = given()
+                .log().all()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
                 .body(payload)
                 .when()
                 .post(Routes.post_url);
+        response.then().log().all();
 
         return response;
     }
@@ -23,7 +25,7 @@ public class UserEndPoints {
     public static Response readUser(String usernamekey) {
         Response response = given().pathParam("username", usernamekey)
                 .when()
-                .post(Routes.get_url);
+                .get(Routes.get_url);
         return response;
     }
 
@@ -47,7 +49,7 @@ username → Java variable containing the value.
     public static Response deleteUser(String usernamekey) {
         Response response = given().pathParam("username", usernamekey)
                 .when()
-                .post(Routes.delete_url);
+                .delete(Routes.delete_url);
         return response;
     }
 
