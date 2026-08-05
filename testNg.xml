@@ -8,8 +8,9 @@
         <parameter name="os" value="windows"></parameter>
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="api.test.UserTests"></class>
-            <class name="api.test.DDTests"></class>
+          <!--  <class name="api.test.UserTests"></class>
+            <class name="api.test.DDTests"></class> -->
+            <class name="api.test.UserTests2"></class>
         </classes>
     </test>
 </suite>

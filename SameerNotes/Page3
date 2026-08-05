@@ -28,3 +28,10 @@ Add Logs
 -log4j2.xml -> we have to configure this file related log -SRC/TEST /Resources
 C:\Users\Mohamed Imran\IdeaProjects\2026_RestAssuredFramework\src\test\resources\log4j2.xml
 ===============
+
+Step 10 - we have Created the routes class to store the url of Users
+Now We are going to crete the config.propertiesf iles to load these URLs
+We have Created one routes.properties file in resources folder
+Created one more UserEndpoints2 - for class creation
+Created one more Usertests2 - For Tests
+Again we ran from TestNg XML file as well

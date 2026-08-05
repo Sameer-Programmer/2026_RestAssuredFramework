@@ -1,0 +1,28 @@
+Add Logs
+We have Already created the folder called Logs
+-log4j2 dependency
+-log4j2.xml -> we have to configure this file related log -SRC/TEST /Resources
+C:\Users\Mohamed Imran\IdeaProjects\2026_RestAssuredFramework\src\test\resources\log4j2.xml
+We have Upload or create the log4j2.xml
+and now in the Tests
+we have add the Logg
+
+- Imports
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+inside class -
+private static final Logger logger = LogManager.getLogger(UserTests.class);
+and now in every test  first line nad last line logger is added
+    @Test(priority = 1)
+    public void testPostUser() {
+
+        logger.info("********Create user***************");
+
+        System.out.println(userPayload.getUsername());
+        Response response = UserEndPoints.createUser(userPayload);
+        response.then().log().all();
+        Assert.assertEquals(response.getStatusCode(), 200);
+
+
+        logger.info("******** User Created***************");
+    }
