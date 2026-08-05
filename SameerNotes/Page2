@@ -32,3 +32,6 @@ dependencies
 11) extent Report
 12) Log4 j2 dependency - I has two depednency internally
 
+We have to add two Plugins as well to run our tesBg Tets cases -
+maven-compiler-plugin
+maven-surefire-plugin

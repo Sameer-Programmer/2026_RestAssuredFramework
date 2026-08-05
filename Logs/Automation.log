@@ -22,3 +22,11 @@
 2026-08-05 18:07:23 [main] INFO  api.test.UserTests2 - ********  User is Updated***************
 2026-08-05 18:07:23 [main] INFO  api.test.UserTests2 - ********User is Deleting***************
 2026-08-05 18:07:24 [main] INFO  api.test.UserTests2 - ********  Deleted User***************
+2026-08-05 18:13:18 [main] INFO  api.test.UserTests2 - ********Create user***************
+2026-08-05 18:13:21 [main] INFO  api.test.UserTests2 - ******** User Created***************
+2026-08-05 18:13:21 [main] INFO  api.test.UserTests2 - ********Read user***************
+2026-08-05 18:13:22 [main] INFO  api.test.UserTests2 - ******** userRead info didplayed***************
+2026-08-05 18:13:22 [main] INFO  api.test.UserTests2 - ********Updating  user***************
+2026-08-05 18:13:23 [main] INFO  api.test.UserTests2 - ********  User is Updated***************
+2026-08-05 18:13:23 [main] INFO  api.test.UserTests2 - ********User is Deleting***************
+2026-08-05 18:13:24 [main] INFO  api.test.UserTests2 - ********  Deleted User***************
