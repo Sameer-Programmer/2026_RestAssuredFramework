@@ -20,4 +20,11 @@ Step 8
 Generate Extent Reports
 - Extent Report Utility
 - testNg.XMl
+
+
+Step 9
+Add Logs
+-log4j2 dependency
+-log4j2.xml -> we have to configure this file related log -SRC/TEST /Resources
+C:\Users\Mohamed Imran\IdeaProjects\2026_RestAssuredFramework\src\test\resources\log4j2.xml
 ===============
